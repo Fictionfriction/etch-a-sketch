@@ -10,6 +10,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .grid {
@@ -20,5 +22,9 @@ body {
 
 .color {
     background-color: blue;
+}
+
+button {
+    margin: 10px;
 }
 
